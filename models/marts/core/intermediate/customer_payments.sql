@@ -15,7 +15,6 @@ final as (
     select
         orders.customer_id,
         sum(amount) as total_amount
-        orders.order_date
 
     from payments
 
