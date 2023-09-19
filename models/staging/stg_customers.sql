@@ -2,7 +2,7 @@ with source as (
 
     {#-
     Normally we would select from the table here, but we are using seeds to load
-    our data in this projectsdag
+    our data in this projectsdagasdf
     #}
     select * from {{ ref('raw_customers') }}
 
