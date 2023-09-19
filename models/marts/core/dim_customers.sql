@@ -21,7 +21,7 @@ final as (
     select
         customers.customer_id,
         customer_orders.first_order,
-        customer_orders.most_recent_order,
+        customer_orders.most_recent_order as test,
         customer_orders.number_of_orders,
         customer_payments.total_amount as customer_lifetime_value
 
